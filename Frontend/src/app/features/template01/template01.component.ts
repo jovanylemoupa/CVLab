@@ -1,6 +1,5 @@
+import { TmplAstIfBlockBranch } from '@angular/compiler';
 import { Component } from '@angular/core';
-import { UserInfos } from '../../shared/models/userInfos';
-
 @Component({
   selector: 'app-template01',
   imports: [],
