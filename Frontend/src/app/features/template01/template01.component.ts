@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { User } from '../../shared/models/persons';
+import { UserInfos } from '../../shared/models/userInfos';
 
 @Component({
   selector: 'app-template01',
@@ -8,16 +8,13 @@ import { User } from '../../shared/models/persons';
   styleUrl: './template01.component.scss',
 })
 export class Template01Component {
-  infoPerso: User[] = [
+  infoPerso: UserInfos[] = [
     {
-      id: '678787',
       name: 'Jovi',
+      jobPosition: '',
       email: 'Jovi@gmail.com',
-    },
-    {
-      id: '678787',
-      name: 'TOTO',
-      email: 'toto@gmail.com',
-    },
+      phone: '',
+      description: ''
+    }
   ];
 }
